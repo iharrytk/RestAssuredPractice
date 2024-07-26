@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-22T10:47:57 CDT" name="Default suite" finished-at="2024-07-22T10:48:01 CDT" duration-ms="3618">
+  <suite started-at="2024-07-25T22:11:31 CDT" name="Default suite" finished-at="2024-07-25T22:11:38 CDT" duration-ms="7155">
     <groups>
     </groups>
-    <test started-at="2024-07-22T10:47:57 CDT" name="Default test" finished-at="2024-07-22T10:48:01 CDT" duration-ms="3618">
-      <class name="GettingStarted.TestInBDDusingMatchers">
-        <test-method signature="getUsers()[pri:0, instance:GettingStarted.TestInBDDusingMatchers@273e7444]" started-at="2024-07-22T10:47:57 CDT" name="getUsers" finished-at="2024-07-22T10:48:01 CDT" duration-ms="3566" status="PASS">
+    <test started-at="2024-07-25T22:11:31 CDT" name="Default test" finished-at="2024-07-25T22:11:38 CDT" duration-ms="7155">
+      <class name="GettingStarted.RequestResponse">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:GettingStarted.RequestResponse@7d0b7e3c]" started-at="2024-07-25T22:11:31 CDT" name="setUP" finished-at="2024-07-25T22:11:31 CDT" duration-ms="832" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUsers -->
-      </class> <!-- GettingStarted.TestInBDDusingMatchers -->
+        </test-method> <!-- setUP -->
+        <test-method signature="createToken()[pri:0, instance:GettingStarted.RequestResponse@7d0b7e3c]" started-at="2024-07-25T22:11:31 CDT" name="createToken" finished-at="2024-07-25T22:11:36 CDT" duration-ms="4689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToken -->
+        <test-method signature="createBooking()[pri:1, instance:GettingStarted.RequestResponse@7d0b7e3c]" started-at="2024-07-25T22:11:36 CDT" name="createBooking" finished-at="2024-07-25T22:11:36 CDT" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="getBooking()[pri:2, instance:GettingStarted.RequestResponse@7d0b7e3c]" started-at="2024-07-25T22:11:36 CDT" name="getBooking" finished-at="2024-07-25T22:11:37 CDT" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooking -->
+        <test-method signature="updateBooking()[pri:3, instance:GettingStarted.RequestResponse@7d0b7e3c]" started-at="2024-07-25T22:11:37 CDT" name="updateBooking" finished-at="2024-07-25T22:11:37 CDT" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+        <test-method signature="partialupdateBooking()[pri:4, instance:GettingStarted.RequestResponse@7d0b7e3c]" started-at="2024-07-25T22:11:37 CDT" name="partialupdateBooking" finished-at="2024-07-25T22:11:37 CDT" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialupdateBooking -->
+        <test-method signature="deleteBooking()[pri:5, instance:GettingStarted.RequestResponse@7d0b7e3c]" started-at="2024-07-25T22:11:37 CDT" name="deleteBooking" finished-at="2024-07-25T22:11:38 CDT" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+      </class> <!-- GettingStarted.RequestResponse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GettingStarted.HotelBookerAPI">
+      <class name="GettingStarted.RequestResponse">
         <methods>
           <include name="deleteBooking"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- GettingStarted.HotelBookerAPI -->
+      </class> <!-- GettingStarted.RequestResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
