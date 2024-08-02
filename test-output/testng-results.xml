@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-26T20:51:44 CDT" name="Default suite" finished-at="2024-07-26T20:51:47 CDT" duration-ms="3040">
+  <suite started-at="2024-08-01T21:53:27 CDT" name="Default suite" finished-at="2024-08-01T21:53:33 CDT" duration-ms="5665">
     <groups>
     </groups>
-    <test started-at="2024-07-26T20:51:44 CDT" name="Default test" finished-at="2024-07-26T20:51:47 CDT" duration-ms="3040">
-      <class name="GettingStarted.JsonFileHotelBookerAPI">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:GettingStarted.JsonFileHotelBookerAPI@7d0b7e3c]" started-at="2024-07-26T20:51:44 CDT" name="setUP" finished-at="2024-07-26T20:51:45 CDT" duration-ms="350" status="PASS">
+    <test started-at="2024-08-01T21:53:27 CDT" name="Default test" finished-at="2024-08-01T21:53:33 CDT" duration-ms="5665">
+      <class name="GettingStarted.POJOHotelBookerAPI">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:GettingStarted.POJOHotelBookerAPI@7674f035]" started-at="2024-08-01T21:53:27 CDT" name="setUP" finished-at="2024-08-01T21:53:28 CDT" duration-ms="790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="createToken()[pri:0, instance:GettingStarted.JsonFileHotelBookerAPI@7d0b7e3c]" started-at="2024-07-26T20:51:45 CDT" name="createToken" finished-at="2024-07-26T20:51:46 CDT" duration-ms="1353" status="PASS">
+        <test-method signature="createToken()[pri:0, instance:GettingStarted.POJOHotelBookerAPI@7674f035]" started-at="2024-08-01T21:53:28 CDT" name="createToken" finished-at="2024-08-01T21:53:31 CDT" duration-ms="3234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createToken -->
-        <test-method signature="createBooking()[pri:1, instance:GettingStarted.JsonFileHotelBookerAPI@7d0b7e3c]" started-at="2024-07-26T20:51:46 CDT" name="createBooking" finished-at="2024-07-26T20:51:46 CDT" duration-ms="268" status="PASS">
+        <test-method signature="createBooking()[pri:1, instance:GettingStarted.POJOHotelBookerAPI@7674f035]" started-at="2024-08-01T21:53:31 CDT" name="createBooking" finished-at="2024-08-01T21:53:31 CDT" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method signature="getBooking()[pri:2, instance:GettingStarted.JsonFileHotelBookerAPI@7d0b7e3c]" started-at="2024-07-26T20:51:46 CDT" name="getBooking" finished-at="2024-07-26T20:51:47 CDT" duration-ms="264" status="PASS">
+        <test-method signature="getBooking()[pri:2, instance:GettingStarted.POJOHotelBookerAPI@7674f035]" started-at="2024-08-01T21:53:31 CDT" name="getBooking" finished-at="2024-08-01T21:53:32 CDT" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBooking -->
-        <test-method signature="updateBooking()[pri:3, instance:GettingStarted.JsonFileHotelBookerAPI@7d0b7e3c]" started-at="2024-07-26T20:51:47 CDT" name="updateBooking" finished-at="2024-07-26T20:51:47 CDT" duration-ms="259" status="PASS">
+        <test-method signature="updateBooking()[pri:3, instance:GettingStarted.POJOHotelBookerAPI@7674f035]" started-at="2024-08-01T21:53:32 CDT" name="updateBooking" finished-at="2024-08-01T21:53:32 CDT" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBooking -->
-        <test-method signature="partialupdateBooking()[pri:4, instance:GettingStarted.JsonFileHotelBookerAPI@7d0b7e3c]" started-at="2024-07-26T20:51:47 CDT" name="partialupdateBooking" finished-at="2024-07-26T20:51:47 CDT" duration-ms="258" status="PASS">
+        <test-method signature="partialupdateBooking()[pri:4, instance:GettingStarted.POJOHotelBookerAPI@7674f035]" started-at="2024-08-01T21:53:32 CDT" name="partialupdateBooking" finished-at="2024-08-01T21:53:32 CDT" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partialupdateBooking -->
-        <test-method signature="deleteBooking()[pri:5, instance:GettingStarted.JsonFileHotelBookerAPI@7d0b7e3c]" started-at="2024-07-26T20:51:47 CDT" name="deleteBooking" finished-at="2024-07-26T20:51:47 CDT" duration-ms="247" status="PASS">
+        <test-method signature="deleteBooking()[pri:5, instance:GettingStarted.POJOHotelBookerAPI@7674f035]" started-at="2024-08-01T21:53:32 CDT" name="deleteBooking" finished-at="2024-08-01T21:53:33 CDT" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBooking -->
-      </class> <!-- GettingStarted.JsonFileHotelBookerAPI -->
+      </class> <!-- GettingStarted.POJOHotelBookerAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
