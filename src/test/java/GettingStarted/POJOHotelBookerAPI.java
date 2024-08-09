@@ -29,13 +29,13 @@ public class POJOHotelBookerAPI extends BaseClassHotelBookerAPI{
 
 	@Test(priority = 1)
 	public void createBooking() {
-		POJOBookingdates bd=new POJOBookingdates("2018-01-01", "2019-01-01");
-		POJOHotelBookerCreateBooking create=new POJOHotelBookerCreateBooking
-				("haritha","tk", 111, false,bd,"Breakfast");
+//		POJOBookingdates bd=new POJOBookingdates("2018-01-01", "2019-01-01");
+//		POJOHotelBookerCreateBooking create=new POJOHotelBookerCreateBooking
+//				("haritha","tk", 111, false,bd,"Breakfast");
 
 		Response resp = given()
 				.spec(req)
-				.body(create)
+//				.body(create)
 				.post("/booking");
 		System.out.println(resp.asPrettyString());
 		resp.then().assertThat().spec(response_200);
@@ -61,16 +61,16 @@ public class POJOHotelBookerAPI extends BaseClassHotelBookerAPI{
 	
 	@Test(priority = 3)
 	public void updateBooking() {
-		POJOBookingdates bd=new POJOBookingdates("2018-01-01", "2019-01-01");
-		POJOHotelBookerCreateBooking create1=new POJOHotelBookerCreateBooking
-				("harry","potter", 111, true,bd,"Dinner");
+//		POJOBookingdates bd=new POJOBookingdates("2018-01-01", "2019-01-01");
+//		POJOHotelBookerCreateBooking create1=new POJOHotelBookerCreateBooking
+//				("harry","potter", 111, true,bd,"Dinner");
 		
 		Response resp=given()
 				.spec(req)
 				.header("Accept","application/json")
 				.header("Cookie","token="+token)
 				.pathParam("bookidpathparameter", bookingid)
-				.body(create1)
+//				.body(create1)
 				.put("/booking/{bookidpathparameter}");
 		System.out.println("The token value generated in the create token post call is:"+token);
 		resp.then().assertThat().spec(response_200);

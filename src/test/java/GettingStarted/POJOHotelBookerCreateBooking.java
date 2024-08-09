@@ -1,5 +1,9 @@
 package GettingStarted;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class POJOHotelBookerCreateBooking {
 	
 	private String firstname;
@@ -9,17 +13,17 @@ public class POJOHotelBookerCreateBooking {
 	private POJOBookingdates bookingdates;
 	private String additionalneeds;
 	
-	public POJOHotelBookerCreateBooking(String firstname, String lastname,
-			int totalprice, boolean depositpaid,POJOBookingdates bookingdates, 
-			String additionalneeds) {
-		
-		this.firstname = firstname;
-		this.lastname = lastname;
-		this.totalprice = totalprice;
-		this.depositpaid = depositpaid;
-		this.bookingdates=bookingdates;
-		this.additionalneeds = additionalneeds;
-	}
+//	public POJOHotelBookerCreateBooking(String firstname, String lastname,
+//			int totalprice, boolean depositpaid,POJOBookingdates bookingdates, 
+//			String additionalneeds) {
+//		
+//		this.firstname = firstname;
+//		this.lastname = lastname;
+//		this.totalprice = totalprice;
+//		this.depositpaid = depositpaid;
+//		this.bookingdates=bookingdates;
+//		this.additionalneeds = additionalneeds;
+//	}
 
 	public String getFirstname() {
 		return firstname;

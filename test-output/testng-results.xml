@@ -1,172 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T12:03:43 CDT" name="Default suite" finished-at="2024-08-06T12:03:49 CDT" duration-ms="5929">
+  <suite started-at="2024-08-09T16:58:43 CDT" name="Default suite" finished-at="2024-08-09T16:58:46 CDT" duration-ms="3846">
     <groups>
     </groups>
-    <test started-at="2024-08-06T12:03:43 CDT" name="Default test" finished-at="2024-08-06T12:03:49 CDT" duration-ms="5929">
-      <class name="GettingStarted.DDTHotelBookerAPI">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:43 CDT" name="setUP" finished-at="2024-08-06T12:03:44 CDT" duration-ms="819" status="PASS">
+    <test started-at="2024-08-09T16:58:43 CDT" name="Default test" finished-at="2024-08-09T16:58:46 CDT" duration-ms="3846">
+      <class name="GettingStarted.POJOHotelBookerAPIDserztn">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:GettingStarted.POJOHotelBookerAPIDserztn@248e319b]" started-at="2024-08-09T16:58:43 CDT" name="setUP" finished-at="2024-08-09T16:58:43 CDT" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="createToken(java.lang.String,java.lang.String)[pri:0, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:44 CDT" name="createToken" data-provider="tokendata" finished-at="2024-08-06T12:03:47 CDT" duration-ms="2813" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="createToken()[pri:0, instance:GettingStarted.POJOHotelBookerAPIDserztn@248e319b]" started-at="2024-08-09T16:58:43 CDT" name="createToken" finished-at="2024-08-09T16:58:46 CDT" duration-ms="2572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createToken -->
-        <test-method signature="createBooking(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:47 CDT" name="createBooking" data-provider="createBookingdata" finished-at="2024-08-06T12:03:47 CDT" duration-ms="327" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jim]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Brown]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[111]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2018-01-01]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2019-01-01]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Breakfast]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="createBooking()[pri:1, instance:GettingStarted.POJOHotelBookerAPIDserztn@248e319b]" started-at="2024-08-09T16:58:46 CDT" name="createBooking" finished-at="2024-08-09T16:58:46 CDT" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method signature="createBooking(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:47 CDT" name="createBooking" data-provider="createBookingdata" finished-at="2024-08-06T12:03:47 CDT" duration-ms="307" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[haritha]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tk]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[555]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2024-01-01]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2025-01-01]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Dinner]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createBooking -->
-        <test-method signature="createBooking(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:47 CDT" name="createBooking" data-provider="createBookingdata" finished-at="2024-08-06T12:03:48 CDT" duration-ms="308" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jaya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tk]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[777]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2023-01-01]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2024-01-01]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[lunch]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createBooking -->
-        <test-method signature="getBooking()[pri:2, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:48 CDT" name="getBooking" finished-at="2024-08-06T12:03:48 CDT" duration-ms="372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBooking -->
-        <test-method signature="updateBooking()[pri:3, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:48 CDT" name="updateBooking" finished-at="2024-08-06T12:03:48 CDT" duration-ms="311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateBooking -->
-        <test-method signature="partialupdateBooking()[pri:4, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:48 CDT" name="partialupdateBooking" finished-at="2024-08-06T12:03:49 CDT" duration-ms="301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- partialupdateBooking -->
-        <test-method signature="deleteBooking()[pri:5, instance:GettingStarted.DDTHotelBookerAPI@663c9e7a]" started-at="2024-08-06T12:03:49 CDT" name="deleteBooking" finished-at="2024-08-06T12:03:49 CDT" duration-ms="309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteBooking -->
-      </class> <!-- GettingStarted.DDTHotelBookerAPI -->
+      </class> <!-- GettingStarted.POJOHotelBookerAPIDserztn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
