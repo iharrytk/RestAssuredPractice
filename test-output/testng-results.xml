@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-21T11:08:59 CDT" name="Default suite" finished-at="2024-08-21T11:09:02 CDT" duration-ms="3031">
+  <suite started-at="2024-08-21T22:19:12 CDT" name="Default suite" finished-at="2024-08-21T22:19:17 CDT" duration-ms="5719">
     <groups>
     </groups>
-    <test started-at="2024-08-21T11:08:59 CDT" name="Default test" finished-at="2024-08-21T11:09:02 CDT" duration-ms="3031">
-      <class name="GettingStarted.CreateBookingUsingObjectMapperDDT">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:GettingStarted.CreateBookingUsingObjectMapperDDT@33065d67]" started-at="2024-08-21T11:08:59 CDT" name="setUP" finished-at="2024-08-21T11:09:00 CDT" duration-ms="343" status="PASS">
+    <test started-at="2024-08-21T22:19:12 CDT" name="Default test" finished-at="2024-08-21T22:19:17 CDT" duration-ms="5719">
+      <class name="GettingStarted.LombokHotelBookerAPI">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:GettingStarted.LombokHotelBookerAPI@1c5920df]" started-at="2024-08-21T22:19:12 CDT" name="setUP" finished-at="2024-08-21T22:19:12 CDT" duration-ms="832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="createToken(java.lang.String,java.lang.String)[pri:0, instance:GettingStarted.CreateBookingUsingObjectMapperDDT@33065d67]" started-at="2024-08-21T11:09:00 CDT" name="createToken" data-provider="tokendata" finished-at="2024-08-21T11:09:01 CDT" duration-ms="1532" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="createToken()[pri:0, instance:GettingStarted.LombokHotelBookerAPI@1c5920df]" started-at="2024-08-21T22:19:12 CDT" name="createToken" finished-at="2024-08-21T22:19:16 CDT" duration-ms="3353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createToken -->
-        <test-method signature="createBooking()[pri:1, instance:GettingStarted.CreateBookingUsingObjectMapperDDT@33065d67]" started-at="2024-08-21T11:09:01 CDT" name="createBooking" finished-at="2024-08-21T11:09:02 CDT" duration-ms="1133" status="PASS">
+        <test-method signature="createBooking()[pri:1, instance:GettingStarted.LombokHotelBookerAPI@1c5920df]" started-at="2024-08-21T22:19:16 CDT" name="createBooking" finished-at="2024-08-21T22:19:16 CDT" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-      </class> <!-- GettingStarted.CreateBookingUsingObjectMapperDDT -->
+        <test-method signature="getBooking()[pri:2, instance:GettingStarted.LombokHotelBookerAPI@1c5920df]" started-at="2024-08-21T22:19:16 CDT" name="getBooking" finished-at="2024-08-21T22:19:16 CDT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooking -->
+        <test-method signature="updateBooking()[pri:3, instance:GettingStarted.LombokHotelBookerAPI@1c5920df]" started-at="2024-08-21T22:19:16 CDT" name="updateBooking" finished-at="2024-08-21T22:19:17 CDT" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+        <test-method signature="partialupdateBooking()[pri:4, instance:GettingStarted.LombokHotelBookerAPI@1c5920df]" started-at="2024-08-21T22:19:17 CDT" name="partialupdateBooking" finished-at="2024-08-21T22:19:17 CDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialupdateBooking -->
+        <test-method signature="deleteBooking()[pri:5, instance:GettingStarted.LombokHotelBookerAPI@1c5920df]" started-at="2024-08-21T22:19:17 CDT" name="deleteBooking" finished-at="2024-08-21T22:19:17 CDT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+      </class> <!-- GettingStarted.LombokHotelBookerAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

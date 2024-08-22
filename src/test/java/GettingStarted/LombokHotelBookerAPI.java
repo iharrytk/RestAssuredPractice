@@ -2,9 +2,12 @@ package GettingStarted;
 
 import static io.restassured.RestAssured.given;
 
+import java.io.File;
+
 import org.testng.annotations.Test;
 
 import GettingStarted.LombokPOJOHBCreateBooking.BookingDates;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
 public class LombokHotelBookerAPI extends BaseClassHotelBookerAPI {
@@ -31,7 +34,7 @@ public class LombokHotelBookerAPI extends BaseClassHotelBookerAPI {
 				.body(authpojo)
 				.post("/auth");
 
-		resp.then().assertThat().spec(response_200);
+		resp.then().assertThat().spec(response_200).body(JsonSchemaValidator.matchesJsonSchema(new File("./src/test/resources/jsonschemas/tokenschema.json")));
 
 		token = resp.jsonPath().getString("token");
 		System.out.println("The value of token is:" + token);
